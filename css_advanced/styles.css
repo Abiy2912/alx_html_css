@@ -250,8 +250,55 @@ color: #FFFFFF;
 
 
 }
-.mamber-section h3{
+.second-css-task{
+  background-color: #C271FF;
+  position: relative;
   
-  
-  
+  width: 1440px;
+  height: 392px;
+ 
+}
+.second-img{
+  position: absolute; 
+  width: 160px;
+  height: 160px;
+  top: 100px;
+  left: 259px;
+  gap: 0px;
+  opacity: 0px;
+
+
+}
+.second-text{
+  position: absolute;
+  width: 543px;
+  height: 158px;
+  top: 100px;
+  left: 430px;
+  gap: 0px;
+  opacity: 0px;
+  text-wrap: wrap;
+  color: #FFFFFF;
+
+
+}
+.second-text p{
+  padding-left: 50px;
+  font-family: Source Sans Pro;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 33.6px;
+  text-align: left;
+
+
+}
+.second-text h3{
+  padding-left: 50px;
+  font-family: Source Sans Pro;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 33.6px;
+  text-align: left;
+
 }
