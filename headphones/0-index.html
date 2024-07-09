@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive design</title>
+  <link rel="stylesheet" href="0-styles.css">
+  <script src="https://kit.fontawesome.com/b37a5a872d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <section class="header">
+    <nav>
+      <a href="0-index.html"><img src="images/logo_headphones.png"></a>
+        <div class="nav_links">
+          <ul id="sidemenu">
+             <li><a href="#">What we do</a></li> 
+             <li><a href="#">Our results</a></li>
+             <li><a href="#">Contact us</a></li>
+             <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                      
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </div>
+    </nav>
+    <div class="loren-text">
+      <h1>Lorem ipsum dolor set amet lorem ipsum.</h1>
+      <h3>Lorem ipsum dolor set amet lorem ipsum dolor set </h3>
+      <a href="" class="call-button">CALL TO ACTION</a>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing<br>
+         elit. Cumque laboriosam nemo temporibus odio quisquam <br>
+         saepe, dolores ratione at quia rem asperiores corporis <br>
+        dicta ex eius natus iusto earum, iste impedit.</p>
+    </div>
+  </section>
+
+    
+   
+    <main></main>
+
+  </div>
+  
+
+  <footer></footer>
+  
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+      sidemenu.style.left = "0";
+
+    }
+    function closemenu(){
+      sidemenu.style.left = "-500px";
+      
+    }
+  </script>
+  
+  
+</body>
+</html>
