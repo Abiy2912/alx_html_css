@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>practice</title>
+  <link rel="stylesheet" href="0-styles.css">
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="images/logo_headphones.png"></a>
+      <div class="nav-links" id="navLinks">
+        <span class="holberton_school-icon-close" onclick="hideMenu()"></span>
+        <ul>
+          <li><a href="">what we do</a></li>
+          <li><a href="">our result</a></li>
+          <li><a href="">contact us</a></li> 
+        </ul>
+
+      </div>
+      <span class="holberton_school-icon-menu" onclick="showMenu()"></span>
+    </nav>
+ 
+    <div class="pargraph-button">
+      <h1>Lorem ipsum dolor set amet Lorem ipsum.</h1>
+      <h4>Lorem ipsum dolor set amet Lorem ipsum dolor set.</h4>
+      <a href="#" class="hero-button"> CALL TO ACTION</a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur at, <br> quis illum illo animi excepturi asperiores, veritatis quae repellat necessitatibus,<br> vero neque vel unde expedita doloribus corporis magnam labore voluptates.</p>
+    </div>
+    
+      
+  <!--------------------------------------------section two--------------------------->
+  
+  
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.left = "0";
+      
+    }
+    function hideMenu(){
+      navLinks.style.left = "-200px";
+      
+      
+    }
+
+  </script>
+    
+  
+</body>
+</html> 
