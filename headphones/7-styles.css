@@ -1,11 +1,12 @@
 *{
-  margin: 0;
+  margin:0;
   padding: 0;
   
 
 }
 body{
   font-family: Source Sans Pro;
+  margin-bottom: 200px;
   
 
 }
@@ -282,11 +283,7 @@ ul li a:hover{
   
   
   }
-  .hero-button{
-    
-  
-  
-  }
+ 
   .hero-button:hover{
     border: 1px solid #c2bcbc;
     background:#a39393;
@@ -378,6 +375,7 @@ ul li a:hover{
   width: 100%;
   height: auto;
   margin-top: 120px;
+  margin-bottom: 50px;
 
 }
 .part-3-pargraph h1{
@@ -617,41 +615,38 @@ ul li a:hover{
 }
 
 /*--------------------------------------------------------------------------*/
-.contact-form {
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  margin-top: 120px;
+.conttact-form{
+  max-width: 400px;  
+  border: 1px solid black;
+  margin-left: 200px;
+}
+.contact-heading{
+  font-size: 34px;
+  margin-bottom: 20px;
+  margin-left: 48%;
 
 }
-.contact-form h2{
-  text-align: center;
-}
-
-button {
-  background-color:#FF6565;
-  color: #ffffff;
-  border: none;
-  margin-left: 130px;
-  border-radius: 16px;
-  cursor: pointer;
-  padding: 12px;
-  font-size: 12px;
+.input-data {
+  width: 500px;
+  margin-left: 35%;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 
 }
-#myInput{
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
+.input-data label{
+  font-weight: 300;
+}
+.file button{
+  background-color: #FF6565;
+  color: #FFFFFF;
+  padding: 10px 20px;
   border-radius: 5px;
-  border-top:0;
-  border-right:0;
-  border-left:0;
-  border-bottom: 1px solid  rgba(0, 0, 0, 0.3);;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  margin-left: 48%;
+  margin-top: 25px;
 }
+
 /*--------------------------------------------------section 5--------------------------------------*/
 .footer-div{
   background: #071629;
